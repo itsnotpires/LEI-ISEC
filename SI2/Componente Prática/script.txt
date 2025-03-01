@@ -1,0 +1,91 @@
+CREATE TABLE disciplinas (
+	iddisciplina int,
+	nomediscip	 varchar(250),
+	ects	 int,
+	cargahoraria int,
+	tipodiscip	 varchar(250),
+	nralunos	 int,
+	profregente	 varchar(250),
+	dificuldade	 int,
+	PRIMARY KEY(iddisciplina)
+);
+
+CREATE TABLE curso (
+	idcurso			 int,
+	nomecurso		 varchar(250),
+	areacurso		 varchar(250),
+	duracaocurso		 int,
+	taxasucesso		 float(8),
+	taxaabandono		 float(8),
+	popularidade		 int,
+	coordenadorcurso	 varchar(250),
+	custocurso		 int,
+	disciplinas_iddisciplina int NOT NULL,
+	PRIMARY KEY(idcurso)
+);
+
+CREATE TABLE aluno (
+	idaluno		 int,
+	nome		 varchar(250),
+	idade		 int,
+	sexo		 char(255),
+	estadocivil	 varchar(250),
+	cidade		 varchar(250),
+	rendafamiliar	 float(8),
+	beneficiosfinanc float(8),
+	status		 varchar(250),
+	PRIMARY KEY(idaluno)
+);
+
+CREATE TABLE tempo (
+	idtempo	 int,
+	semestre	 int,
+	anoletivo varchar(250),
+	dia	 int,
+	mes	 int,
+	ano	 int,
+	PRIMARY KEY(idtempo)
+);
+
+CREATE TABLE desempenhoacademico (
+	iddesempacad		 int,
+	notafinal		 int,
+	aprovacao		 int,
+	freqaulasfrequentadas	 int,
+	empregabilidade		 int,
+	tempo_idtempo		 int NOT NULL,
+	disciplinas_iddisciplina int NOT NULL,
+	curso_idcurso		 int NOT NULL,
+	aluno_idaluno		 int NOT NULL,
+	PRIMARY KEY(iddesempacad)
+);
+
+CREATE TABLE situacaofinanceira (
+	idsitfinanc	 int,
+	proppagas	 int,
+	propatraso	 int,
+	apoiofinanc	 int,
+	tempo_idtempo int NOT NULL,
+	aluno_idaluno int NOT NULL,
+	PRIMARY KEY(idsitfinanc)
+);
+
+CREATE TABLE matriculas (
+	idmatricula	 int,
+	statusmatricula varchar(250),
+	datamatricula	 varchar(250),
+	regimematricula varchar(250),
+	periodovalidade int,
+	aluno_idaluno	 int NOT NULL,
+	PRIMARY KEY(idmatricula)
+);
+
+ALTER TABLE curso ADD CONSTRAINT curso_fk1 FOREIGN KEY (disciplinas_iddisciplina) REFERENCES disciplinas(iddisciplina);
+ALTER TABLE desempenhoacademico ADD CONSTRAINT desempenhoacademico_fk1 FOREIGN KEY (tempo_idtempo) REFERENCES tempo(idtempo);
+ALTER TABLE desempenhoacademico ADD CONSTRAINT desempenhoacademico_fk2 FOREIGN KEY (disciplinas_iddisciplina) REFERENCES disciplinas(iddisciplina);
+ALTER TABLE desempenhoacademico ADD CONSTRAINT desempenhoacademico_fk3 FOREIGN KEY (curso_idcurso) REFERENCES curso(idcurso);
+ALTER TABLE desempenhoacademico ADD CONSTRAINT desempenhoacademico_fk4 FOREIGN KEY (aluno_idaluno) REFERENCES aluno(idaluno);
+ALTER TABLE situacaofinanceira ADD CONSTRAINT situacaofinanceira_fk1 FOREIGN KEY (tempo_idtempo) REFERENCES tempo(idtempo);
+ALTER TABLE situacaofinanceira ADD CONSTRAINT situacaofinanceira_fk2 FOREIGN KEY (aluno_idaluno) REFERENCES aluno(idaluno);
+ALTER TABLE matriculas ADD CONSTRAINT matriculas_fk1 FOREIGN KEY (aluno_idaluno) REFERENCES aluno(idaluno);
+
