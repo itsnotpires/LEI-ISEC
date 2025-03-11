@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\davip\\source\\repos\\si2\\tpDW\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4CE3486-2468-413C-89BF-309FC7A94D73}|tpDW\\tpDW.dwproj|C:\\Users\\davip\\source\\repos\\si2\\tpDW\\tpDW\\Tp DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E4CE3486-2468-413C-89BF-309FC7A94D73}|tpDW\\tpDW.dwproj|solutionrelative:tpDW\\Tp DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4CE3486-2468-413C-89BF-309FC7A94D73}|tpDW\\tpDW.dwproj|C:\\Users\\davip\\source\\repos\\si2\\tpDW\\tpDW\\Tp DW.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E4CE3486-2468-413C-89BF-309FC7A94D73}|tpDW\\tpDW.dwproj|solutionrelative:tpDW\\Tp DW.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tp DW.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\davip\\source\\repos\\si2\\tpDW\\tpDW\\Tp DW.cube",
+              "RelativeDocumentMoniker": "tpDW\\Tp DW.cube",
+              "ToolTip": "C:\\Users\\davip\\source\\repos\\si2\\tpDW\\tpDW\\Tp DW.cube [Design]",
+              "RelativeToolTip": "tpDW\\Tp DW.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-09T14:56:36.476Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tp DW.dsv [Design]",
+              "DocumentMoniker": "C:\\Users\\davip\\source\\repos\\si2\\tpDW\\tpDW\\Tp DW.dsv",
+              "RelativeDocumentMoniker": "tpDW\\Tp DW.dsv",
+              "ToolTip": "C:\\Users\\davip\\source\\repos\\si2\\tpDW\\tpDW\\Tp DW.dsv [Design]",
+              "RelativeToolTip": "tpDW\\Tp DW.dsv [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-09T14:43:05.781Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

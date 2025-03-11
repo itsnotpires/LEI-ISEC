@@ -1,0 +1,316 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="74f5c84e-4e66-4698-ade5-2ef1f880712c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CURSO</ID>
+  <Name>CURSO</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4571" scrolltop="-7197" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="13176" y="19394" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="CURSO" left="99" top="-26" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3995" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00009b0f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_CURSO" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-4571</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-7197</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>99</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-26</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a42707b5-378d-4438-8d71-0211a4c49ac4">
+    <DataSourceViewID>Tp DW</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="ef4237ac-38bb-4962-b70b-2ab14dd83376">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="1f9560dd-bdd0-4e46-ba66-dab5096c2b5e">
+      <ID>Idcurso</ID>
+      <Name>Idcurso</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="675498bc-5f4d-44e1-bc59-b53e0432a478">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bc1382a1-c6da-4eaa-9a41-85061f205057">
+            <TableID>dbo_CURSO</TableID>
+            <ColumnID>idcurso</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="f534ff43-cb02-4a41-9f65-da634b82ebfd">
+          <AttributeID>Disciplinas Iddisciplina</AttributeID>
+          <Name>Disciplinas Iddisciplina</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="62e16dc4-4baa-44a6-a781-361adde03b02">
+          <AttributeID>Idcurso 1</AttributeID>
+          <Name>Idcurso 1</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ec3c3544-e1a4-4bcc-9148-76a2bccf6a3b">
+          <AttributeID>Nomecurso</AttributeID>
+          <Name>Nomecurso</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8e10c53e-1064-4ff6-8e9a-395c06ea7eba">
+          <AttributeID>Areacurso</AttributeID>
+          <Name>Areacurso</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c1540d14-2103-4d45-910f-b9ff2bc80179">
+          <AttributeID>Duracaocurso</AttributeID>
+          <Name>Duracaocurso</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ecbf7828-4ee0-425e-8ace-f2b55bad13a1">
+          <AttributeID>Taxasucesso</AttributeID>
+          <Name>Taxasucesso</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c054121c-37cf-4b4c-8e5f-dba8971fb4fe">
+          <AttributeID>Taxaabandono</AttributeID>
+          <Name>Taxaabandono</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8d135f43-7519-4816-bba6-14f74b30e0f0">
+          <AttributeID>Popularidade</AttributeID>
+          <Name>Popularidade</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0ca3712a-c9f6-459b-9a3d-ac9afc28ff82">
+          <AttributeID>Coordenadorcurso</AttributeID>
+          <Name>Coordenadorcurso</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="30c2a075-6bf7-48a7-9d64-dd8ec1424ae5">
+          <AttributeID>Custocurso</AttributeID>
+          <Name>Custocurso</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="dd65d268-10b7-44cf-915b-0d1581a147d5">
+          <AttributeID>Disciplinas Iddisciplina 1</AttributeID>
+          <Name>Disciplinas Iddisciplina 1</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="83316fbc-bac0-45b9-a0f5-c007ef34235a">
+      <ID>Disciplinas Iddisciplina</ID>
+      <Name>Disciplinas Iddisciplina</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="996c8f25-aa1f-4674-8c0e-3f222cf9cb12">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="11e34ad6-5e0a-4198-b709-d64465dcce43">
+            <TableID>dbo_CURSO</TableID>
+            <ColumnID>disciplinas_iddisciplina</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="03f6b99b-92a2-4f91-80bb-ad3d89bcf69c">
+      <ID>Idcurso 1</ID>
+      <Name>Idcurso 1</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f1fa33a5-ddb0-4f93-a74a-f504fed0f7e8">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3eaab386-c168-4d4c-851c-d4c16e63b9b4">
+            <TableID>dbo_CURSO</TableID>
+            <ColumnID>idcurso</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6edcd6bc-054e-4bf1-8242-d30827364a08">
+      <ID>Nomecurso</ID>
+      <Name>Nomecurso</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d5b9bd1c-7209-48c4-9502-78c73e2ec499">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="39bb1270-5a9a-40fb-afcb-b98e85139ff5">
+            <TableID>dbo_CURSO</TableID>
+            <ColumnID>nomecurso</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="13517e98-7f72-4eb0-b856-27bfac107bed">
+      <ID>Areacurso</ID>
+      <Name>Areacurso</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d7a4f34d-e85e-4bc6-911f-db528f717e68">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f95d3394-57df-4fba-8085-d3c473d16923">
+            <TableID>dbo_CURSO</TableID>
+            <ColumnID>areacurso</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bbcdbe88-a266-4ac1-b123-65d57b346e18">
+      <ID>Duracaocurso</ID>
+      <Name>Duracaocurso</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="db438da4-57d0-4348-b4ad-2436917e02a8">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5b5738cb-e066-4310-bee4-5acdf3d08c0f">
+            <TableID>dbo_CURSO</TableID>
+            <ColumnID>duracaocurso</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5fec7311-60aa-4c38-b380-b918ab71feef">
+      <ID>Taxasucesso</ID>
+      <Name>Taxasucesso</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="edbeec2d-0def-466f-b1bf-491d984c1b44">
+          <DataType>Single</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6bb9e6ff-1e95-4bb9-b685-7c5dcea41681">
+            <TableID>dbo_CURSO</TableID>
+            <ColumnID>taxasucesso</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="105bc9a1-cdbe-4521-95a2-c4204f4be243">
+      <ID>Taxaabandono</ID>
+      <Name>Taxaabandono</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e5a50b50-7017-4743-b355-174d9ad4a563">
+          <DataType>Single</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a9e44eef-77bb-47bd-9b14-7824d96fd508">
+            <TableID>dbo_CURSO</TableID>
+            <ColumnID>taxaabandono</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="afe5b070-6594-42b0-851d-9123bbf66403">
+      <ID>Popularidade</ID>
+      <Name>Popularidade</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3bfa95b5-7a53-400d-87a2-bcbc9f8f0a94">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5d0cf98b-4d50-4044-a064-d10893906f9f">
+            <TableID>dbo_CURSO</TableID>
+            <ColumnID>popularidade</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="393a85a2-0625-468c-9732-5eb84ed2f003">
+      <ID>Coordenadorcurso</ID>
+      <Name>Coordenadorcurso</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="11a3482d-7069-4b94-8e23-4d19b627642d">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9a189103-8b0a-48b3-95bc-227b9e7a6106">
+            <TableID>dbo_CURSO</TableID>
+            <ColumnID>coordenadorcurso</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8928f065-459a-4292-9951-7b0edc11dd70">
+      <ID>Custocurso</ID>
+      <Name>Custocurso</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4af10d1e-f4fc-45f1-819e-d9f5be86aaa2">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9a93cbcb-ceb8-431e-889f-e999c7715109">
+            <TableID>dbo_CURSO</TableID>
+            <ColumnID>custocurso</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e9c22eb6-daf3-484f-ad3f-393a08164d34">
+      <ID>Disciplinas Iddisciplina 1</ID>
+      <Name>Disciplinas Iddisciplina 1</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ce1b80cb-122a-4c42-b763-c932f653c35b">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5c8c6bac-8eb6-4055-b858-b12d7868393d">
+            <TableID>dbo_CURSO</TableID>
+            <ColumnID>disciplinas_iddisciplina</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
