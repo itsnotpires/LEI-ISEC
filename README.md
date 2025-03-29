@@ -1,1 +1,1 @@
-Trabalhos práticos de algumas cadeiras no âmbito do curso de Engenharia Informática
+Trabalhos práticos de algumas cadeiras no âmbito do curso de Licenciatura em Engenharia Informática
